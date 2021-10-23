@@ -4,10 +4,9 @@ import background from './images/background.png'
 
 function App() {
   return (
-    <div classname='App'>
+    <div className='guide'>
       <h1>Yorick Guide</h1>
       <ChampList />
-      <img src={background} id='bg' alt='' />
     </div>
   )
 }
