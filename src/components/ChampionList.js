@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Champion from './Champion'
-import champArray from './champArray'
+import champArray from '../champArray'
 import Searchbar from './SearchBar'
-import { useDebouncedState } from './hooks/useDebouncedState'
+import { useDebouncedState } from '../hooks/useDebouncedState'
 
 const ChampList = (props) => {
   const { isLoading } = props
