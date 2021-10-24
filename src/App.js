@@ -1,5 +1,5 @@
 import './App.css'
-import ChampList from './ChampionList'
+import ChampList from './components/ChampionList'
 import background from './images/background.png'
 
 function App() {

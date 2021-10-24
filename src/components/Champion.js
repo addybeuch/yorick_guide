@@ -1,4 +1,5 @@
 import React from 'react'
+import DifficultyRating from './common/DifficultyRating'
 
 const Champion = (props) => {
   const { champ } = props
@@ -6,7 +7,7 @@ const Champion = (props) => {
   return (
     <div className='card'>
       <h3 className='name'>{champ.name}</h3>
-      <p className='matchup'>{champ.matchup}</p>
+      <DifficultyRating matchup={champ.matchup} />
       <p className='runes'>{champ.runes}</p>
       <p className='items'>{champ.items}</p>
       <p className='difficulty'>{champ.difficulty}</p>
