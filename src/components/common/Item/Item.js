@@ -3,7 +3,7 @@ import itemsList from '../../../itemImages/imageList'
 
 const Item = ({ name }) => {
   return (
-    <div>
+    <div className='item-container'>
       <img src={itemsList[name]} alt='' />
     </div>
   )
