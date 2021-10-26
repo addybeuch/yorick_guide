@@ -1,5 +1,5 @@
 import React from 'react'
-import DifficultyRating from './common/DifficultyRating'
+import DifficultyRating from './common/DifficultyRating/DifficultyRating'
 
 const Champion = (props) => {
   const { champ } = props
